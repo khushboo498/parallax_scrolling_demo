@@ -1,0 +1,93 @@
+body, html {
+	margin:0;
+	
+	font-size:15px;
+	font-family:"Lato", sans-serif;
+	height:100%;
+}
+/*this style is for all*/
+.black-img-text{
+	font-size:25px;
+	padding:18px;
+	color:#fff;
+	background-color:#000;
+	letter-spacing:10px;
+}
+
+.white-img-text{
+	font-size:25px;
+	padding:18px;
+	color:#fff;
+	letter-spacing:10px;
+}
+.img1, .img2, .img3 {
+	position: relative;
+    opacity: 0.65;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*.first-img */.img1 {
+	background-image: url("./image/img_parallax.jpg");
+    min-height: 500px
+}
+/*.third-img-white*/ .img2 {
+	background-image:url("./image/img_parallax2.jpg");
+	min-height:400px;
+}
+/*.fifth */.img3 {
+	background-image:url("./image/img_parallax3.jpg");
+	min-height:400px;
+}
+/*.last*/ /*.img4 {
+	background-image:url("./image/img_parallax.jpg");
+    min-height: 500px
+}*/
+
+/*image and paragraph setting*/
+.img-text{
+	/*position:absolute;
+	width:100%;
+	/*height:100%;*/
+/*	top:50%;
+	left:50%;
+	transition:transform(-50% -50%);*/
+	/*margin:0 auto;*/
+	/*z-index:3;*/
+	position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+}
+
+/*second para*/
+.second-para .paragraph{
+	padding: 50px 80px;
+    color: #777;
+    text-align: justify;
+}
+.second-para .paragraph h3{
+	text-align: center;
+    color: #000;
+    font-size: 21px;
+    letter-spacing: 5px;
+    margin: 20px 0;
+}
+
+/*fourth para and sixth*/
+.black-line{
+	background-color: #282E34;
+    color: #ddd;
+    padding: 65px 80px;
+    text-align: justify;
+}
+
+@media only screen and (max-width: 1024){
+	.img1, .img2, .img3, .img4{
+		background-attachment:scroll;
+	}
+}
